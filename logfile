@@ -13,3 +13,15 @@
 2023-12-18 20:56:21.627 EST [7504] LOG:  checkpoint complete: wrote 973 buffers (5.9%); 0 WAL file(s) added, 0 removed, 1 recycled; write=104.548 s, sync=0.347 s, total=104.998 s; sync files=318, longest=0.004 s, average=0.002 s; distance=4592 kB, estimate=4592 kB; lsn=0/5178660, redo lsn=0/5130B18
 2023-12-18 21:04:36.929 EST [7504] LOG:  checkpoint starting: time
 2023-12-18 21:04:40.567 EST [7504] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.560 s, sync=0.066 s, total=3.638 s; sync files=21, longest=0.042 s, average=0.004 s; distance=298 kB, estimate=4162 kB; lsn=0/517B3D0, redo lsn=0/517B398
+2023-12-18 21:24:36.611 EST [7504] LOG:  checkpoint starting: time
+2023-12-18 21:24:42.471 EST [7504] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.705 s, sync=0.095 s, total=5.861 s; sync files=44, longest=0.041 s, average=0.003 s; distance=265 kB, estimate=3773 kB; lsn=0/51BDB70, redo lsn=0/51BDB38
+2023-12-18 21:29:36.510 EST [7504] LOG:  checkpoint starting: time
+2023-12-18 21:29:44.104 EST [7504] LOG:  checkpoint complete: wrote 70 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.416 s, sync=0.119 s, total=7.595 s; sync files=72, longest=0.042 s, average=0.002 s; distance=428 kB, estimate=3438 kB; lsn=0/52400D8, redo lsn=0/5228D20
+2023-12-18 21:33:12.941 EST [4152] FATAL:  database "ar*" does not exist
+2023-12-18 21:33:40.102 EST [15240] ERROR:  syntax error at or near "/" at character 1
+2023-12-18 21:33:40.102 EST [15240] STATEMENT:  /dt
+	SELECT * from stores;
+2023-12-18 21:34:36.136 EST [7504] LOG:  checkpoint starting: time
+2023-12-18 21:34:46.128 EST [7504] LOG:  checkpoint complete: wrote 91 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=9.796 s, sync=0.133 s, total=9.993 s; sync files=78, longest=0.028 s, average=0.002 s; distance=577 kB, estimate=3152 kB; lsn=0/52B94D8, redo lsn=0/52B94A0
+2023-12-19 09:04:19.965 EST [7504] LOG:  checkpoint starting: time
+2023-12-19 09:04:30.270 EST [7504] LOG:  checkpoint complete: wrote 94 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=10.180 s, sync=0.068 s, total=10.305 s; sync files=51, longest=0.002 s, average=0.002 s; distance=446 kB, estimate=2881 kB; lsn=0/5328E70, redo lsn=0/5328E38
